@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_miperfil"
+            android:icon="@drawable/perfil"
+            android:title="@string/miperfil"/>
+        <item
+            android:id="@+id/menu_miscategorias"
+            android:icon="@drawable/categorias"
+            android:title="@string/miscategorias"/>
+        <item
+            android:id="@+id/menu_ejercicios"
+            android:icon="@drawable/ejercicios"
+            android:title="@string/ejercicios"/>
+        <item
+            android:id="@+id/menu_porcentajes"
+            android:icon="@drawable/porcentaje"
+            android:title="@string/tabladeporcentajes"/>
+        <item
+            android:id="@+id/menu_records"
+            android:icon="@drawable/record"
+            android:title="@string/records"/>
+        <item
+            android:id="@+id/menu_configuracion"
+            android:icon="@drawable/configuracion"
+            android:title="@string/configuracion"/>
+    </group>
+</menu>

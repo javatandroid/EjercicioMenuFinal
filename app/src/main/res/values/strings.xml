@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjercicioMenuFinal</string>
+
+    <string name="miperfil">Mi perfil</string>
+    <string name="miscategorias">Mis categorías</string>
+    <string name="ejercicios">Ejercicios</string>
+    <string name="tabladeporcentajes">Tabla de porcentajes</string>
+    <string name="records">Récords</string>
+    <string name="configuracion">Configuración</string>
+</resources>
