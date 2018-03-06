@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ejerciciomenufinal.ActivityLogin"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen120"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/dimen50">
+
+        <EditText
+            android:id="@+id/etLoginUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:textColor="@color/blanco"
+            android:textColorHint="@color/blanco" />
+
+        <TextView
+            android:id="@+id/tvLoginUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo" />
+
+        <EditText
+            android:id="@+id/etLoginContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName"
+            android:textColor="@color/blanco"
+            android:textColorHint="@color/blanco" />
+
+        <TextView
+            android:id="@+id/tvLoginContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rojo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entra"
+                android:layout_marginEnd="@dimen/dimen20"
+                android:layout_marginRight="@dimen/dimen20" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Regístrate"
+                android:layout_marginStart="@dimen/dimen20"
+                android:layout_marginLeft="@dimen/dimen20" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O bien"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dimen30"
+            android:textColor="@color/blanco"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen40"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibLoginFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+                <ImageButton
+                    android:id="@+id/ibLoginGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EjercicioMenuFinal.iml" filepath="$PROJECT_DIR$/EjercicioMenuFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EjercicioMenuFinal.iml" filepath="$PROJECT_DIR$/.idea/EjercicioMenuFinal.iml" />
+      <module fileurl="file://C:\Users\Javi\AndroidStudioProjects\EjercicioMenuFinal\EjercicioMenuFinal.iml" filepath="C:\Users\Javi\AndroidStudioProjects\EjercicioMenuFinal\EjercicioMenuFinal.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

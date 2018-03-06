@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.ejerciciomenufinal.ActivityRegistro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/dimen50">
+
+        <ImageButton
+            android:id="@+id/ibRegistroAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_atras" />
+
+        <EditText
+            android:id="@+id/etRegistroUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Usuario" />
+
+        <TextView
+            android:id="@+id/tvRegistroUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/etRegistroEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="e-mail" />
+
+        <TextView
+            android:id="@+id/tvRegistroEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/etRegistroContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Contraseña" />
+
+        <TextView
+            android:id="@+id/tvRegistroContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+        <EditText
+            android:id="@+id/etRegistroRepetirrContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Repetir contraseña" />
+
+        <TextView
+            android:id="@+id/tvRegistroRepetirContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnRegistroRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:text="Regístrate" />
+
+        <Button
+            android:id="@+id/btnRegistroRecuperarContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recuperar contraseña" />
+    </LinearLayout>
+
+
+</LinearLayout>
