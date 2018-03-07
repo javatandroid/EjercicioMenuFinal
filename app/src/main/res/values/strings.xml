@@ -7,4 +7,11 @@
     <string name="tabladeporcentajes">Tabla de porcentajes</string>
     <string name="records">Récords</string>
     <string name="configuracion">Configuración</string>
+    <string name="registrate">Regístrate</string>
+    <string name="entrar">Entrar</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">e-mail</string>
+    <string name="repetircontraseña">Repetir contraseña</string>
+    <string name="mejormarca">Mejor marca</string>
 </resources>

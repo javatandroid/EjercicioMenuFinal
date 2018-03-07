@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Usuario"
+            android:hint="@string/usuario"
             android:inputType="textPersonName"
             android:textColor="@color/blanco"
             android:textColorHint="@color/blanco" />
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Contraseña"
+            android:hint="@string/contraseña"
             android:inputType="textPersonName"
             android:textColor="@color/blanco"
             android:textColorHint="@color/blanco" />
@@ -67,20 +67,20 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnLoginEntrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Entra"
+                android:text="@string/entrar"
                 android:layout_marginEnd="@dimen/dimen20"
                 android:layout_marginRight="@dimen/dimen20" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnLoginRegistrate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Regístrate"
+                android:text="@string/registrate"
                 android:layout_marginStart="@dimen/dimen20"
                 android:layout_marginLeft="@dimen/dimen20" />
         </LinearLayout>

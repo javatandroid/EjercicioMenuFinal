@@ -27,7 +27,7 @@
             android:layout_marginTop="@dimen/dimen20"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Usuario" />
+            android:hint="@string/usuario" />
 
         <TextView
             android:id="@+id/tvRegistroUsuario"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="e-mail" />
+            android:hint="@string/email" />
 
         <TextView
             android:id="@+id/tvRegistroEmail"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Contraseña" />
+            android:hint="@string/contraseña" />
 
         <TextView
             android:id="@+id/tvRegistroContraseña"
@@ -64,12 +64,12 @@
              />
 
         <EditText
-            android:id="@+id/etRegistroRepetirrContraseña"
+            android:id="@+id/etRegistroRepetirContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Repetir contraseña" />
+            android:hint="@string/repetircontraseña" />
 
         <TextView
             android:id="@+id/tvRegistroRepetirContraseña"
@@ -79,16 +79,15 @@
 
         <Button
             android:id="@+id/btnRegistroRegistrarse"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/dimen200"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen20"
-            android:text="Regístrate" />
+            android:background="@drawable/estilobotones"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dimen18"
+            android:text="@string/registrate" />
 
-        <Button
-            android:id="@+id/btnRegistroRecuperarContraseña"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Recuperar contraseña" />
+
     </LinearLayout>
 
 
