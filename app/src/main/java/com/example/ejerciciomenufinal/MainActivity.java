@@ -8,6 +8,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
@@ -36,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         drawerLayout=(DrawerLayout)findViewById(R.id.drawer_layout);
 
-
-
+        drawerLayout.closeDrawer(Gravity.END);
         navView=(NavigationView)findViewById(R.id.navview);
 
         navView.setNavigationItemSelectedListener(
@@ -108,7 +108,15 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void clicprueba(View view){
+        if(drawerLayout.isDrawerOpen(GravityCompat.END)) {
+            drawerLayout.closeDrawer(GravityCompat.END);
+        }
+        else {
+            drawerLayout.openDrawer(GravityCompat.END);
+        }
 
+    }
 
 
 }
