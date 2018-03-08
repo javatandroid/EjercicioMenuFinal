@@ -37,6 +37,20 @@ public class MainActivity extends AppCompatActivity {
 
         drawerLayout=(DrawerLayout)findViewById(R.id.drawer_layout);
 
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayOptions(actionBar.getDisplayOptions()
+                | ActionBar.DISPLAY_SHOW_CUSTOM);
+        ImageView imageView = new ImageView(actionBar.getThemedContext());
+        imageView.setScaleType(ImageView.ScaleType.CENTER);
+        imageView.setImageResource(R.drawable.adnace_search_i);
+        ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
+                ActionBar.LayoutParams.WRAP_CONTENT,
+                ActionBar.LayoutParams.WRAP_CONTENT, Gravity.RIGHT
+                | Gravity.CENTER_VERTICAL);
+        layoutParams.rightMargin = 40;
+        imageView.setLayoutParams(layoutParams);
+        actionBar.setCustomView(imageView);
+
         drawerLayout.closeDrawer(Gravity.END);
         navView=(NavigationView)findViewById(R.id.navview);
 

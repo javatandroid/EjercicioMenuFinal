@@ -14,14 +14,12 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="@dimen/dimen50">
 
-        <ImageButton
-            android:id="@+id/ibRegistroAtras"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/ic_atras" />
 
         <EditText
-            android:id="@+id/etRegistroUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen20"
@@ -30,13 +28,11 @@
             android:hint="@string/usuario" />
 
         <TextView
-            android:id="@+id/tvRegistroUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <EditText
-            android:id="@+id/etRegistroEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -44,13 +40,11 @@
             android:hint="@string/email" />
 
         <TextView
-            android:id="@+id/tvRegistroEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <EditText
-            android:id="@+id/etRegistroContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -58,13 +52,11 @@
             android:hint="@string/contraseña" />
 
         <TextView
-            android:id="@+id/tvRegistroContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
              />
 
         <EditText
-            android:id="@+id/etRegistroRepetirContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -72,13 +64,11 @@
             android:hint="@string/repetircontraseña" />
 
         <TextView
-            android:id="@+id/tvRegistroRepetirContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <Button
-            android:id="@+id/btnRegistroRegistrarse"
             android:layout_width="@dimen/dimen200"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen20"
