@@ -19,7 +19,7 @@
         <activity android:name=".ActivityLogo" />
         <activity android:name=".ActivityLogin" />
         <activity android:name=".ActivityRegistro" />
-        <activity android:name=".ActivityEjercicioCardio"></activity>
+        <activity android:name=".ActivityEjercicioCardio" />
     </application>
 
 </manifest>

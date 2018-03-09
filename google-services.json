@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551858127630",
+    "firebase_url": "https://proyecto-lifter.firebaseio.com",
+    "project_id": "proyecto-lifter",
+    "storage_bucket": "proyecto-lifter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551858127630:android:108e674080b1f6ee",
+        "android_client_info": {
+          "package_name": "com.example.ejerciciomenufinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551858127630-50na6t35832c1bf3h9o7s3b2jffiuuru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ejerciciomenufinal",
+            "certificate_hash": "600ee4f3d22918d02e5e6d314020db6bb27589c6"
+          }
+        },
+        {
+          "client_id": "551858127630-20jevqbphosv8tf6u51lm5hur12bqbi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUHvM_OVZnUmN0Za74pTxSeuOWLpQIvvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551858127630-20jevqbphosv8tf6u51lm5hur12bqbi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

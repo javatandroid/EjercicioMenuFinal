@@ -1,5 +1,6 @@
 package com.example.ejerciciomenufinal;
 
+import android.app.ActionBar;
 import android.service.autofill.FillEventHistory;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -13,12 +14,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Toolbar appbar;
     private DrawerLayout drawerLayout;
     private NavigationView navView;
+    private Toolbar appbar;
 
 
     public MainActivity() {
@@ -30,30 +32,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
         getSupportActionBar().setHomeAsUpIndicator(R.mipmap.ic_nav_menu);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         drawerLayout=(DrawerLayout)findViewById(R.id.drawer_layout);
 
-        ActionBar actionBar = getActionBar();
-        actionBar.setDisplayOptions(actionBar.getDisplayOptions()
-                | ActionBar.DISPLAY_SHOW_CUSTOM);
-        ImageView imageView = new ImageView(actionBar.getThemedContext());
-        imageView.setScaleType(ImageView.ScaleType.CENTER);
-        imageView.setImageResource(R.drawable.adnace_search_i);
-        ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
-                ActionBar.LayoutParams.WRAP_CONTENT,
-                ActionBar.LayoutParams.WRAP_CONTENT, Gravity.RIGHT
-                | Gravity.CENTER_VERTICAL);
-        layoutParams.rightMargin = 40;
-        imageView.setLayoutParams(layoutParams);
-        actionBar.setCustomView(imageView);
-
-        drawerLayout.closeDrawer(Gravity.END);
         navView=(NavigationView)findViewById(R.id.navview);
-
         navView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override

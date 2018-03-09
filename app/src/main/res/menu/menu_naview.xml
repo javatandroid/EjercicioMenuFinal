@@ -4,7 +4,8 @@
         <item
             android:id="@+id/menu_miperfil"
             android:icon="@drawable/perfil"
-            android:title="@string/miperfil"/>
+            android:title="@string/miperfil"
+            />
         <item
             android:id="@+id/menu_miscategorias"
             android:icon="@drawable/categorias"

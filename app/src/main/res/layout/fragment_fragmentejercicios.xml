@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
 
 
     <FrameLayout
@@ -13,6 +14,17 @@
         android:layout_height="match_parent"
         tools:context="com.example.ejerciciomenufinal.fragmentejercicios">
 
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabanadirejercicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/dimen20"
+            android:backgroundTint="@color/blanco"
+            app:fabSize="normal"
+            app:srcCompat="@mipmap/ic_anadirejercicio" />
+
     </FrameLayout>
+
 
 </LinearLayout>
