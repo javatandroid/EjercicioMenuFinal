@@ -15,5 +15,10 @@
     <string name="repetircontraseña">Repetir contraseña</string>
     <string name="mejormarca">Mejor marca</string>
     <string name="añadiracategoria">Añadir a categoría</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="estaciones">Estaciones</string>
+    <string name="estacionesporcentaje">Estaciones por %</string>
+    <string name="reps">Reps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
